@@ -22,7 +22,7 @@ gem 'middleman-livereload', '~> 3.4.2'
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 gem 'middleman-syntax'
-gem 'middleman-s3_sync'
+gem 'middleman-s3_sync', '>= 3.0.45'
 gem 'middleman-search_engine_sitemap'
 
 gem 'slim'
@@ -30,7 +30,7 @@ gem 'therubyracer'
 gem 'oj'
 gem 'redcarpet', '>= 3.2.3'
 gem 'travis'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.4'
 gem 'rainbow'
 gem "bootstrap-sass", require: false
 
