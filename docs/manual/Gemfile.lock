@@ -150,7 +150,7 @@ GEM
       middleman-core (~> 3.2)
       rouge (~> 1.0)
     mime-types (2.4.3)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.8.8)
     minitest (5.6.0)
     multi_json (1.11.2)
     multipart-post (2.0.0)
@@ -159,8 +159,9 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.15.7)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     oj (2.15.0)
     padrino-helpers (0.12.5)
       i18n (~> 0.6, >= 0.6.7)
@@ -172,6 +173,7 @@ GEM
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
+    racc (1.8.1)
     rack (1.6.0)
     rack-livereload (0.3.15)
       rack
@@ -242,7 +244,7 @@ DEPENDENCIES
   middleman-s3_sync
   middleman-search_engine_sitemap
   middleman-syntax
-  nokogiri
+  nokogiri (>= 1.15.7)
   oj
   rainbow
   redcarpet (>= 3.2.3)
@@ -253,4 +255,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.16.1
+   1.17.3

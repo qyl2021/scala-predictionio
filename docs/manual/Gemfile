@@ -30,7 +30,7 @@ gem 'therubyracer'
 gem 'oj'
 gem 'redcarpet', '>= 3.2.3'
 gem 'travis'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.15.7'
 gem 'rainbow'
 gem "bootstrap-sass", require: false
 
