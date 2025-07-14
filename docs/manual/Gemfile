@@ -22,7 +22,7 @@ gem 'middleman-livereload', '~> 3.4.2'
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 gem 'middleman-syntax'
-gem 'middleman-s3_sync'
+gem 'middleman-s3_sync', '>= 4.5.0'
 gem 'middleman-search_engine_sitemap'
 
 gem 'slim'
