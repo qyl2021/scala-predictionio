@@ -29,7 +29,7 @@ gem 'slim'
 gem 'therubyracer'
 gem 'oj'
 gem 'redcarpet', '>= 3.2.3'
-gem 'travis'
+gem 'travis', '>= 1.12.0'
 gem 'nokogiri'
 gem 'rainbow'
 gem "bootstrap-sass", require: false
